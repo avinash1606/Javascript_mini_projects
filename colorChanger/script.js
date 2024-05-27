@@ -1,0 +1,12 @@
+document.getElementById("Red").addEventListener('click',function(e){
+    document.body.style.backgroundColor="red";
+})
+document.getElementById("Green").addEventListener('click',function(e){
+    document.body.style.backgroundColor="green";
+})
+document.getElementById("Yellow").addEventListener('click',function(e){
+    document.body.style.backgroundColor="yellow";
+})
+document.getElementById("Blue").addEventListener('click',function(e){
+    document.body.style.backgroundColor="blue";
+})

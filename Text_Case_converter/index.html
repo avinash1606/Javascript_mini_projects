@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Text converter</h1>
+    <div id="mydiv">
+    
+        <textarea name="mytext" id="mytext" cols="50" rows="4 "placeholder="Enter your text here"></textarea><br>
+        
+        <input type="radio" name="cases" id="camelcase" class="cases">
+        <label for="camelcase">To camelCase</label><br>
+
+        <input type="radio" name="cases" id="snakecase" class="cases">
+        <label for="snakecase">To snake_case</label> <br>
+
+        <input type="radio" name="cases" id="pascalcase" class="cases">
+        <label for="pascalcase">To PascalCase</label> <br>
+        <button id="mysubmit">Submit</button>
+
+        <p id="myresult"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

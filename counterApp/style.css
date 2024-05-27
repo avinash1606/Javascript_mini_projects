@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: rgb(6, 191, 228);
+
+}
+#mylabel{
+    font-size: 6em;
+}
+
+.btn{
+    font-size: 2em;
+    padding: 5px;
+    margin: 3px;
+}
+
+#myp{
+    font-size: 3em;
+    color: red;
+}
+#maindiv{
+    background-color: rgb(142, 208, 19);
+    border: 2px solid black;
+    padding: 5px;
+    margin: 60px;
+}
+p{
+    color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}

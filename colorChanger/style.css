@@ -1,0 +1,48 @@
+.boxes{
+    border: 2px solid black;
+    margin: 4px;
+    min-width: 80px;
+    min-height: 80px;
+    text-align: center;
+
+}
+
+#container{
+    margin-top: 30vh;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    
+}
+#div2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+#Red{
+    background-color:red;
+}
+#Green{
+    background-color:Green;
+}
+#Blue{
+    background-color:Blue;
+}
+#Yellow{
+    background-color:yellow;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

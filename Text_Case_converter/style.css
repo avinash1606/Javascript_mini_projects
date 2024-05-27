@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url("assets/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    word-wrap: break-word;
+
+}
+
+h1{
+    /* color:rgb(240, 4, 4); */
+    text-shadow: 4px 4px 6px  rgb(239, 9, 9);
+
+    font-size:5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+input[type="radio"] {
+
+
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+label{
+    font-size: 2em;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-shadow: 4px 4px 5px  rgb(155, 9, 239);
+}
+
+button{
+    height: 50px;
+    width: 110px;
+    margin: 15px;
+    background-color: hsl(244, 88%, 68%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
+    border-radius: 18px;
+    cursor:pointer;
+    box-shadow: 10px 10px  rgb(7, 104, 169);
+}
+button:hover{
+    background-color: hsl(62, 93%, 59%);
+    
+}
+button:active{
+    background-color: hsl(62, 93%, 69%);
+    transform: translateY(6px)
+}
+
+textarea{
+    background-color: hsl(250, 84%, 90%);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+#myresult{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-shadow: 4px 4px 5px  rgb(9, 239, 147);
+    margin:15px;
+    
+}

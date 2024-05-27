@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: rgba(236, 226, 226, 0.936);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 21, 255);
+}
+#mydiv{
+     max-width: 350px;
+     margin: auto; 
+    background-color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    box-shadow: 5px 5px 15px hsla(0, 2%, 8%,0.5);
+
+ } 
+ #myinput{
+    border: 2px solid black;
+    font-size: 0.8em;
+    margin: 4px;
+
+ }
+ #fahtocel{
+    margin: 10px;
+ }
+ #celtofah{
+    margin: 10px;
+
+ }
+
+ #mysubmit{
+    background-color:red;
+    font-size:1.4em;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 7px;
+
+ }
+ #mysubmit:hover {background-color: #4de207}
+
+ #answer{
+    color: rgb(0, 21, 255);
+}
+
