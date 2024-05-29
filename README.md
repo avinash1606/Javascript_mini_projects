@@ -14,9 +14,8 @@ Welcome to the JavaScript Mini Projects repository! This collection features a v
 7. **Todo App** - A basic todo list application with add, edit, and delete functionalities.
 8. **Color Changer** - Contains four boxes centered on the page, each with a different color (red, green, yellow, blue). Clicking a box changes the background color of the webpage to the color of the box.
 9. **Counter App** - A simple app to increment and decrement a counter.
-10. **Temperature Converter** - Converts temperature between Celsius, Fahrenheit, and Kelvin.
-9. **Counter App** - A simple app to increment and decrement a counter.
-10. **Temperature Converter** - Converts temperature between Celsius, Fahrenheit.
+10. **Dice roller** - This project is a simple web-based dice roller application built using HTML, CSS, and JavaScript. It allows users to input the number of dice they want to roll and then simulates the rolling of those dice, displaying the results on the screen.
+11. **Temperature Converter** - Converts temperature between Celsius, Fahrenheit.
 
 
 ## Installation
