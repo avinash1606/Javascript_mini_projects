@@ -1,66 +1,100 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(peakpx.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+/* style.css */
 
-}
-*{
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#heading h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#input_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#input_container input[type="text"],
+#input_container input[type="date"] {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#input_container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#input_container button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style: none;
     padding: 0;
 }
 
-#heading{
+ul li {
+    background-color: #fafafa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#container{
-    background-color: hsl(0, 0%, 100%);
-    padding: 140px;
-    font-size: 2rem;
-}
-#input_container{
-    margin: 40px;
-}
-#mytask{
-     font-size: 2rem;
+ul li span {
+    flex-grow: 1;
 }
 
-#mydate{
-    font-size: 2rem;
-
+ul li .date {
+    color: #999;
+    font-size: 0.9em;
+    margin-left: 10px;
 }
 
-#add_task{
-    font-size: 1.5rem;
-    box-sizing: border-box;
-    padding: 8px;
-    border-radius: 8px;
-    background-color: rgb(13, 20, 225);
-    color:white;
-    min-width: 140px;
-    font-weight: bold;
-
+ul li button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.mybutton{
-    font-size: 1.5rem;
-    box-sizing: border-box;
-    padding: 8px;
-    margin: 4px;
-    border-radius: 8px;
-    background-color: red;
-    color:white;
-    min-width: 140px;
-    font-weight: bold;
-
-}
-
-#result{
-    display: flex;
-    flex-direction: column;
+ul li button:hover {
+    background-color: #c9302c;
 }
